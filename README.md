@@ -3,9 +3,8 @@ Build a recommend system to recommend articles to users on IBM Watson Studio pla
 - [Project Goal](#Project-Goal)
 - [The Tasks](#Tasks)
 - [Installation](#Installation)
-- [Discussion](#Discussion)
-- [Suggestion](#Suggestion)
-- [Extra](#Extra)
+- [Results](#Results)
+- [Next Steps](#Next)
 - [Licensing, Authors, Acknowledgements](#License)
 
 ## Project Goal <a name="Project-Goal"></a>
@@ -40,18 +39,19 @@ The following packages and versions are used in this jupyter notebook. Any newer
 | Matplotlib | 3.3.2|
 
 
-## Discussion <a name="Discussion"></a>
+## Resutls <a name="Results"></a>
+### Discussion 
 - The accuracy curve for the test set is the inverse of it for the train set. This indicates that we overfit during training by increasing the number of latent features, which shows poor result in test set.
 - By comparing the accuracy of train and test set, we should keep it simple by using fewer latent features (~ 200 max)
 - Besides, we have a very small dataset with only 20 users, whom we are able to give the recommendation, to work with. Any recommendation methods seem to have its own drawback to meet the expectation at this moment.
 
-## Suggestion <a name="Suggestion"></a>
+### Suggestion
 - Collect more data from the users and their interaction with the articles to build better recommendation systems
 - Retrain SVD
 - Perform A/B testing to compare each recommendation method to each other, and to a combination one.
 - Implement some type of ratings to understand the users preference (type of articles they most interact with) as well as to learn their feedback on the current recommendation (like/dislike)
 
-## Extra <a name="Extra"></a>
+## Next Steps <a name="Next"></a>
 I will work on the following steps to improve and complete the recommendation system.
 - Build **content based** recommendations using NLP
 - Make a Flask app
