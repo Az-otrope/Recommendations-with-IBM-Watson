@@ -55,7 +55,7 @@ I will work on the following steps to improve and complete the recommendation sy
 - Build **content based** recommendations using NLP
 - Make a Flask app
 
-![dashboard](Dashboard example.PNG)
+![dashboard](Dashboard.PNG)
 Figure 1. An example of the dashboard made with Flask
 
 ## Licensing, Authors, Acknowledgements <a name="License"></a>
