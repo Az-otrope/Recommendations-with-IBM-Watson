@@ -1,5 +1,4 @@
 # Udacity-Recommendations-with-IBM
-Build a recommend system to recommend articles to users on IBM Watson Studio platform
 - [Project Goal](#Project-Goal)
 - [The Tasks](#Tasks)
 - [Installation](#Installation)
@@ -55,6 +54,9 @@ The following packages and versions are used in this jupyter notebook. Any newer
 I will work on the following steps to improve and complete the recommendation system.
 - Build **content based** recommendations using NLP
 - Make a Flask app
+
+![dashboard](Dashboard example.PNG)
+Figure 1. An example of the dashboard made with Flask
 
 ## Licensing, Authors, Acknowledgements <a name="License"></a>
 * IBM for providing the datasets and project goal
